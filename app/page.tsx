@@ -81,7 +81,7 @@ export default function Page() {
                 className="w-full"
               />
             </div>
-            <div className="flex gap-2 w-full sm:w-auto">
+            <div className="flex flex-col xs:flex-row gap-2 w-full sm:w-auto">
               <Button
                 variant="outline"
                 onClick={handleResetToDefault}
