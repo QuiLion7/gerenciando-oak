@@ -32,8 +32,12 @@ export default function Page() {
 
   const handleSubmit = (data: Product) => {
     const newProduct = addProduct(data);
-    setProducts((prevProducts) => [...prevProducts, newProduct]);
-    toast.success("Produto adicionado com sucesso!");
+    if (newProduct) {
+      setProducts((prevProducts) => [...prevProducts, newProduct]);
+      toast.success("Produto adicionado com sucesso!");
+    } else {
+      toast.error("Erro ao adicionar produto");
+    }
   };
 
   const handleEdit = (product: Product) => {
