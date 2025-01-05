@@ -89,8 +89,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **Quilion Oliveira**
 
-- Website: [quilionoliveira.com](https://quildev.vercel.app/)
-- Github: [@quilion](https://github.com/QuiLion7)
-- LinkedIn: [@quilionoliveira](https://www.linkedin.com/in/quilion7/)
+- Github: [QuiLion7](https://github.com/QuiLion7)
+- LinkedIn: [quilion7](https://www.linkedin.com/in/quilion7/)
 
 ---
